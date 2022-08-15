@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Timed Typing Test App</title>
     <script src="script.js" async></script>
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all">
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i,900,900i" type="text/css" media="all"> -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,20 +20,24 @@
         </article><!-- .intro -->
         <section class="test-area">
             <div id="origin-text">
-                <p>The text to test.</p>
+                <p>the quick brown fox jumped over the lazy dog</p>
             </div><!-- #origin-text -->
 
             <div class="test-wrapper">
-                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing."></textarea>
+                <textarea id="test-area" name="textarea" rows="6" placeholder="The clock starts when you start typing." oninput="matchingText()"></textarea>
             </div><!-- .test-wrapper -->
 
             <div class="meta">
                 <section id="clock">
-                    <div class="timer">00:00:00</div>
+                    <div class="timer">00:00.000</div>
                 </section>
 
-                <button id="reset">Start over</button>
+                <button id="reset" onclick="resetAll()">Start over</button>
             </div><!-- .meta -->
+
+            <div class="finish">
+                <section><p id="type-complete"></p></section>
+            </div>
         </section><!-- .test-area -->
     </main>
 
