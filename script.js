@@ -14,6 +14,18 @@ var testText = [
   
 
 ];
+var rand = 0;
+originText.innerHTML = testText[0];
+function randomizeText() {
+  var r;
+  do {
+    r = Math.floor(Math.random() * 10);
+  } while (r == rand);
+  rand = r;
+  originText.innerHTML = testText[rand];
+}
+
+
 var userTyping = '';
 var errorMade = 0;
 
