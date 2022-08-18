@@ -187,3 +187,17 @@ body {
     color: white;
     background-color: #E95D0F;
 }
+
+#random {
+  padding: 0.25em 0.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #e95d0f;
+  background: white;
+  border: 10px solid #e95d0f;
+}
+
+#random:hover {
+  color: white;
+  background-color: #e95d0f;
+}
