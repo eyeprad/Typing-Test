@@ -3,11 +3,17 @@ const testArea = document.querySelector("#test-area");
 const originText = document.querySelector("#origin-text p").innerHTML;
 const resetButton = document.querySelector("#reset");
 const theTimer = document.querySelector(".timer");
+const wordsPerMinute = document.querySelector("#wpm");
 
 var runTimer; // instance of running the timer (setInterval)
 var startTime = null; // get start time here (Date() function)
 
-var testText = 'the quick brown fox jumped over the lazy dog'
+var testText = [
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel arcu dolor. Cras in mauris.",
+  "The light that burns twice as bright burns half as long.",
+  
+
+];
 var userTyping = '';
 var errorMade = 0;
 
