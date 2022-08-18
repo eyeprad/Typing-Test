@@ -7,7 +7,7 @@ button,
 input,
 select,
 textarea {
-	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-family: 'Helvetica', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 }
@@ -107,7 +107,8 @@ Layout
 body {
     margin: 0;
     padding: 0;
-     background-image: url("https://cdn.glitch.global/93f20d83-9040-445d-a6fa-21dcd0d1c603/keyboard_wall.jpg?v=1660806184238");
+   background-image: url("https://cdn.glitch.global/93f20d83-9040-445d-a6fa-21dcd0d1c603/keyboard_wall.jpg?v=1660806184238");
+
 }
 
 .masthead {
@@ -162,7 +163,7 @@ body {
     flex: 1;
 }
 
-.meta {
+.meta, .finish {
     margin-top: 1em;
     display: flex;
     justify-content: space-between;
@@ -186,18 +187,4 @@ body {
 #reset:hover {
     color: white;
     background-color: #E95D0F;
-}
-
-#random {
-  padding: 0.25em 0.5em;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #e95d0f;
-  background: white;
-  border: 10px solid #e95d0f;
-}
-
-#random:hover {
-  color: white;
-  background-color: #e95d0f;
 }

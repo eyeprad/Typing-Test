@@ -3,30 +3,11 @@ const testArea = document.querySelector("#test-area");
 const originText = document.querySelector("#origin-text p").innerHTML;
 const resetButton = document.querySelector("#reset");
 const theTimer = document.querySelector(".timer");
-const wordsPerMinute = document.querySelector("#wpm");
-const randomButton = document.querySelector("#random");
 
 var runTimer; // instance of running the timer (setInterval)
 var startTime = null; // get start time here (Date() function)
 
-var testText = [
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel arcu dolor. Cras in mauris.",
-  "The light that burns twice as bright burns half as long.",
-  
-
-];
-var rand = 0;
-originText.innerHTML = testText[0];
-function randomizeText() {
-  var r;
-  do {
-    r = Math.floor(Math.random() * 10);
-  } while (r == rand);
-  rand = r;
-  originText.innerHTML = testText[rand];
-}
-
-
+var testText = 'the quick brown fox jumped over the lazy dog'
 var userTyping = '';
 var errorMade = 0;
 
@@ -64,7 +45,7 @@ function startTimer() {
 }
 
 // Match the text entered with the provided text on the page:
-function matchingText(event) {
+function matchingText() {
 
     // start timer (only once) once user start typing
     if (startTime == null) {
@@ -105,12 +86,3 @@ function resetAll() {
 }
 
 // Event listeners for keyboard input and the reset button:
-testArea.addEventListener("keydown", startTimer);
-testArea.addEventListener("keyup", function (event) {
-  matchingText(event);
-});
-resetButton.addEventListener("click", resetAll);
-randomButton.addEventListener("click", function () {
-  randomizeText();
-  resetAll();
-});
