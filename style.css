@@ -107,7 +107,7 @@ Layout
 body {
     margin: 0;
     padding: 0;
-    background-image: ("https://cdn.glitch.global/93f20d83-9040-445d-a6fa-21dcd0d1c603/keyboard_wall.jpg?v=1660806184238")
+     background-image: url("https://cdn.glitch.global/93f20d83-9040-445d-a6fa-21dcd0d1c603/keyboard_wall.jpg?v=1660806184238");
 }
 
 .masthead {
