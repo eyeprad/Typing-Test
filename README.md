@@ -1,37 +1,11 @@
-Welcome to Glitch
-=================
-
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
+Typing Test
 ------------
 
-### ← README.md
+![1](https://user-images.githubusercontent.com/90740765/193378115-34973c26-cbe8-4cf4-a480-a2f5d8f25217.png)
 
-That's this file, where you can tell people what your cool website does and how you built it.
 
-### ← index.html
 
-Where you'll write the content of your website. 
+![2](https://user-images.githubusercontent.com/90740765/193378123-cbd296fd-ff4f-4599-9c16-729ae0e5ea12.png)
 
-### ← style.css
 
-CSS files add styling rules to your content.
-
-### ← script.js
-
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
+![3](https://user-images.githubusercontent.com/90740765/193378126-26296b71-086f-4a8d-9a7f-28da90e57891.png)
